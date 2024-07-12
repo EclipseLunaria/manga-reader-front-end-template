@@ -1,0 +1,40 @@
+
+.layout-container {
+    display: block;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.layout-nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: #1f1f1f;
+    color: #fff;
+}   
+
+.layout-nav-sidebar {
+    display: block;
+    width: 75px;
+    height: 100%;
+    background-color: #1f1f1f;
+}
+
+.layout-contents {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+
+
+.nav-option-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}

@@ -1,0 +1,123 @@
+
+.manga-search-container {
+    width: 400px;
+    height: inherit;
+    padding: 0px;
+    margin: 0px;
+    background-color: #1a1a1a;;
+    overflow-y: hidden;
+    flex-direction: column;
+}
+
+.manga-search-box {
+    border-bottom: white 3px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 20px;  
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.searchbox-text {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.searchbox-input {
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.searchbox-input input {
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-bottom: white 1px solid;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.searchbox-input input:focus {
+    outline: none;
+}
+
+.searchbox-input button {
+    width: 30%;
+    height: 30px;
+    border: white 1px solid;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width:40px;
+    margin-left: 5px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.searchbox-input button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.manga-search-contents {
+    display: block;
+    width: 100%;
+    height:100%;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    font-size: 30px;
+    color: white;
+    overflow-y: auto;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.manga-search-result {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    position: relative;
+    border: 1px solid white;
+    transition: background-color 0.5s;
+}
+
+.manga-search-result:hover {
+    background-color: darkgrey;
+}
+
+
+.manga-search-result img {
+
+    height: 150px;
+    width: auto;
+    padding: 5px;
+    margin: auto;
+}
+
+.manga-search-result-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.manga-result-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}

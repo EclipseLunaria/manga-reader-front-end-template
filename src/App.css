@@ -1,0 +1,17 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: antiquewhite;
+  height: 100%;
+  width: 100%;
+
+}
+
+#manga-reader-app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}

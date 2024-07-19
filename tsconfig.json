@@ -17,6 +17,6 @@
 
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
-  "include": ["src/**/*", "src/global.d.ts"],                               /* Specify an array of filenames or patterns to include in the program. */
+  "include": ["src/**/*", "src/global.d.ts", "src/Components/ChapterReader/.tsx"],                               /* Specify an array of filenames or patterns to include in the program. */
   "exclude": ["node_modules", "dist"]                    /* Specify an array of filenames or patterns to exclude from the program. */
 }
